@@ -1,0 +1,91 @@
+/*
+	styles.css
+	Original Code From thesitewizard.com edited by Collin K0NNK
+*/
+body {
+	font-family: Arial, Helvetica, sans-serif ;
+}
+img {
+	max-width: 100% ;
+	width: auto ;
+	height: auto ;
+}
+p {
+   font-size: 1.2rem;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 1.9rem;
+}
+input, select, button, textarea {
+	max-width: 100% ;
+}
+meter, progress, output {
+	max-width: 100% ;
+}
+div#tswcentrecombo {
+	float: right ;
+	width: 80% ;
+	color: inherit ;
+	background-color: #7a7979 ;
+}
+div#tswothersidecol {
+	float: left ;
+	width: 25% ;
+	color: #fff ;
+	background-color: #7a7979 ;
+}
+div#tswsidecol {
+	float: right ;
+	width: 20% ;
+	color: #fff ;
+	background-color: #7a7979 ;
+}
+div#tswcontent {
+	float: left ;
+	width: 75% ;
+	color: #fff ;
+	background-color: #7a7979 ;
+}
+@media only screen and (max-width: 629px) {
+	div#tswsidecol {
+		float: none ;
+		width: 100% ;
+	}
+	div#tswcontent {
+		float: none ;
+		width: 100% ;
+	}
+	div#tswothersidecol {
+		float: none ;
+		width: 100% ;
+	}
+	div#tswcentrecombo {
+		float: none ;
+		width: 100% ;
+	}
+}
+div#tswcontproper {
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+div#tswcontainer {
+	color: inherit ;
+	background-color: #7a7979 ;
+}
+div#tswsideproper, div#tswothersideproper {
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+div#tswheader {
+	color: #fff ;
+	background-color: rgb(23, 23, 46) ;
+    text-align: center ;
+}
+div#tswfooter {
+	color: #fff ;
+	background-color: rgb(23, 23, 46) ;
+    text-align: center ;
+}

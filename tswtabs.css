@@ -1,0 +1,26 @@
+#tswcsstabs ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2e2e2e;
+  }
+  
+  #tswcsstabs li {
+	float: left;
+  }
+  
+  #tswcsstabs li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  #tswcsstabs li a:hover {
+	background-color: rgb(53, 53, 53);
+  }
+  .active {
+	background-color: rgb(5, 104, 50);
+  }
